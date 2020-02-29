@@ -1,0 +1,18 @@
+<form action="/auth/login" method="POST">
+    <h1>Login</h1>
+    <% include ./../partials/messages %>
+    <fieldset class="uk-fieldset">
+
+        <div class="uk-margin">
+            <input class="uk-input" type="email" placeholder="email" name="email">
+        </div>
+
+        <div class="uk-margin">
+            <input class="uk-input" type="password" placeholder="password" name="password">
+        </div>
+
+        <div class="uk-margin">
+            <button class="uk-button uk-button-default">Login</button>
+        </div>
+    </fieldset>
+</form>
